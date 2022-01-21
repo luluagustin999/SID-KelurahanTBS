@@ -39,7 +39,7 @@ $this->load->view('admin/v_menu');
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Sambutan Camat Kalimanah
+        Sambutan Lurah Teluk Betung
         <small></small>
       </h1>
       <?php $this->load->view('admin/v_bread')?>
@@ -86,7 +86,7 @@ $b = $data->row_array();
 
             <div class="box box-danger">
               <div class="box-header">
-                <h3 class="box-title">Sambutan Camat Kalimanah</h3>
+                <h3 class="box-title">Sambutan Lurah Teluk Betung</h3>
               </div>
               <div class="box-body">
 

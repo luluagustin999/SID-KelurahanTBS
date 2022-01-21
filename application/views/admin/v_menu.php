@@ -30,7 +30,7 @@ $jum_pesan = $query->num_rows();
         </a>
         <ul class="treeview-menu">
           <li class="<?php echo $this->uri->segment(2) == 'sambutan' ? 'active' : '' ?>">
-            <a href="<?php echo base_url() . 'admin/sambutan' ?>"><i class="fa fa-user"></i> Sambutan Camat</a>
+            <a href="<?php echo base_url() . 'admin/sambutan' ?>"><i class="fa fa-user"></i> Sambutan Lurah</a>
           </li>
           <li class="<?php echo $this->uri->segment(2) == 'visimisi' ? 'active' : '' ?>">
             <a href="<?php echo base_url() . 'admin/visimisi' ?>"><i class="fa fa-thumb-tack"></i> Visi dan Misi</a>

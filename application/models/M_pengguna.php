@@ -2,7 +2,7 @@
 class M_pengguna extends CI_Model {
 
 	function get_all_pengguna() {
-		$hsl = $this->db->query("SELECT tb_user.*,IF(jenkel='L','Laki-Laki','Perempuan') AS jenkel FROM tb_user");
+		$hsl = $this->db->query("SELECT tb_user.*,IF(='L','Laki-Laki','Perempuan') AS  FROM tb_user");
 		return $hsl;
 	}
 
