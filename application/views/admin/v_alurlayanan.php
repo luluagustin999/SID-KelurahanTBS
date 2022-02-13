@@ -84,7 +84,7 @@ $b = $data->row_array();
 
                 <div class="box box-danger">
                   <div class="box-header">
-                    <h3 class="box-title">Visi dan Misi</h3>
+                    <h3 class="box-title">Alur Layanan</h3>
                   </div>
                   <div class="box-body">
 

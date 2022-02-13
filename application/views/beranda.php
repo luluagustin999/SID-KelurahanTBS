@@ -245,7 +245,7 @@ $b = $ber_pertama->row_array();
       <div class="col-sm-6">
         <?php $a = $identitas->row_array()?>
         <div class="box">
-          <h4>KECAMATAN KALIMANAH</h4>
+          <h4>KELURAHAN TELUK BETUNG</h4>
           <br/>
           <div class="media">
             <div class="media-left"><i class="icons fa fa-map-marker"></i></div>
@@ -267,9 +267,6 @@ $b = $ber_pertama->row_array();
             <br/>
             <div class="social-media-icons col-xs-12">
               <ul class="list-inline col-xs-12">
-                <?php foreach ($socmed->result() as $socmed): ?>
-                  <a href="<?php echo $socmed->url ?>"><i class="<?php echo $socmed->icon ?>  fa-2x"></i></a>
-                <?php endforeach;?>
               </ul>
             </div>
           </div>

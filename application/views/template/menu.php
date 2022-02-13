@@ -23,7 +23,7 @@
           Profil
         </a>
         <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-          <a <?php echo (($this->uri->segment(1) == "sambutan") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?> href="<?php echo base_url() . 'sambutan'; ?>">Sambutan Camat</a>
+          <a <?php echo (($this->uri->segment(1) == "sambutan") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?> href="<?php echo base_url() . 'sambutan'; ?>">Sambutan Lurah</a>
           <a <?php echo (($this->uri->segment(1) == "visimisi") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?> href="<?php echo base_url() . 'visimisi'; ?>">Visi Misi</a>
           <a <?php echo (($this->uri->segment(1) == "strukturorganisasi") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?> href="<?php echo base_url() . 'strukturorganisasi'; ?>">Struktur Organisasi</a>
           <a <?php echo (($this->uri->segment(1) == "profilpegawai") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?> href="<?php echo base_url() . 'profilpegawai'; ?>">Profil Pegawai</a>
